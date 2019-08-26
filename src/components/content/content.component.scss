@@ -1,0 +1,37 @@
+@import "../../style/libs";
+
+.main-container {
+  padding: 30px 15px 30px 305px;
+}
+
+.img-big {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@include media-breakpoint-up(lg) {
+  .img-big {
+   position: absolute;
+  }
+}
+
+.big-content {
+  padding: 20px 40px 20px 40px;
+  min-height: 400px;
+}
+
+.category-lg {
+  font-size: 19px;
+}
+
+.img-small {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small-content {
+  padding: 20px 40px 20px 40px;
+}
+

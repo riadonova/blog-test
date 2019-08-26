@@ -1,0 +1,46 @@
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  background-color: #f6f6f6;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #4AD49F;
+}
+
+.btn {
+  color: #ffffff !important;
+}
+
+.btn:hover {
+  color: #000000 !important;
+}
+
+.btn-icon {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  i {
+      font-size: 17px;
+      line-height: 9px;
+  }
+}
+
+.btn-icon:hover {
+  i{
+    color: #000000;
+  }
+}
+
+.wrapper-shadow {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+p {
+  margin: 0 !important;
+}

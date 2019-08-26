@@ -1,0 +1,75 @@
+header {
+  position: absolute;
+  height: 100%;
+}
+.vertical-menu {
+  position: fixed;
+  width: 280px;
+  min-height: 100%;
+  padding: 60px 0 90px 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  .logo {
+    color: #808080;
+    font-size: 90px;
+    line-height: 50px;
+    span {
+      font-size: 60px;
+    }
+  }
+}
+
+$navbar-font-size: 0.75rem;
+
+.navbar {
+  &-nav {
+    width: 100%;
+  }
+
+  font-size: $navbar-font-size;
+
+  a {
+    font-size: $navbar-font-size;
+  }
+
+  padding-left: 0;
+  padding-right: 0;
+
+  .dropdown {
+    .dropdown-menu {
+      transition: all 0.5s;
+      display: block;
+      height: 0;
+      overflow: hidden;
+      padding: 0;
+      &.show {
+        opacity: 1;
+        height: 130px;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+.nav-link {
+  color: #494949;
+}
+
+.category {
+  transition: top 1s linear 0.5s;
+}
+
+.category:hover {
+  transition: width 1s;
+}
+
+form {
+  padding: 0 30px;
+}
+
+.search {
+  margin-top: 90px;
+}
+
+
